@@ -1,6 +1,9 @@
 (ns app.main.core
   (:require ["electron" :refer [app BrowserWindow crashReporter]]))
 
+;; FIXME: wanrning should not be impressed.
+(set! *warn-on-infer* false)
+
 (def main-window (atom nil))
 
 (defn init-browser []
