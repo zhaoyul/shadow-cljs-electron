@@ -21,7 +21,9 @@
   },
   "dependencies": {
     "create-react-class": "^15.6.3",
-    "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "tim-js-sdk": "^2.7.6",
+    "trtc-electron-sdk": "^7.4.204"
   }
 }
